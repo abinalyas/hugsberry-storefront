@@ -1,0 +1,224 @@
+{
+  "project": "Hugsberry",
+  "target_long_edge_px": 4096,
+  "note": "4K derivatives are upscaled from source images; they improve display resolution but cannot recover unseen original detail. AI lifestyle assets are not included unless individually generated and reviewed.",
+  "products": [
+    {
+      "product_id": "black-suspenders-set",
+      "original": "black-suspenders-set.jpg",
+      "assets": [
+        {
+          "kind": "main",
+          "file": "assets/4k/black-suspenders-set-main-4k.jpg",
+          "width": 3278,
+          "height": 4096
+        },
+        {
+          "kind": "detail-1",
+          "file": "assets/4k/black-suspenders-set-detail-1-4k.jpg",
+          "width": 4096,
+          "height": 2419
+        },
+        {
+          "kind": "detail-2",
+          "file": "assets/4k/black-suspenders-set-detail-2-4k.jpg",
+          "width": 4096,
+          "height": 2828
+        },
+        {
+          "kind": "detail-3",
+          "file": "assets/4k/black-suspenders-set-detail-3-4k.jpg",
+          "width": 4096,
+          "height": 2624
+        }
+      ],
+      "lifestyle_status": "not_generated"
+    },
+    {
+      "product_id": "blue-snowflake-dress",
+      "original": "blue-snowflake-dress.jpg",
+      "assets": [
+        {
+          "kind": "main",
+          "file": "assets/4k/blue-snowflake-dress-main-4k.jpg",
+          "width": 3300,
+          "height": 4096
+        },
+        {
+          "kind": "detail-1",
+          "file": "assets/4k/blue-snowflake-dress-detail-1-4k.jpg",
+          "width": 4096,
+          "height": 2405
+        },
+        {
+          "kind": "detail-2",
+          "file": "assets/4k/blue-snowflake-dress-detail-2-4k.jpg",
+          "width": 4096,
+          "height": 2812
+        },
+        {
+          "kind": "detail-3",
+          "file": "assets/4k/blue-snowflake-dress-detail-3-4k.jpg",
+          "width": 4096,
+          "height": 2609
+        }
+      ],
+      "lifestyle_status": "not_generated"
+    },
+    {
+      "product_id": "green-check-suit",
+      "original": "green-check-suit.jpg",
+      "assets": [
+        {
+          "kind": "main",
+          "file": "assets/4k/green-check-suit-main-4k.jpg",
+          "width": 3278,
+          "height": 4096
+        },
+        {
+          "kind": "detail-1",
+          "file": "assets/4k/green-check-suit-detail-1-4k.jpg",
+          "width": 4096,
+          "height": 2419
+        },
+        {
+          "kind": "detail-2",
+          "file": "assets/4k/green-check-suit-detail-2-4k.jpg",
+          "width": 4096,
+          "height": 2828
+        },
+        {
+          "kind": "detail-3",
+          "file": "assets/4k/green-check-suit-detail-3-4k.jpg",
+          "width": 4096,
+          "height": 2624
+        }
+      ],
+      "lifestyle_status": "not_generated"
+    },
+    {
+      "product_id": "plaid-bow-dress",
+      "original": "plaid-bow-dress.jpg",
+      "assets": [
+        {
+          "kind": "main",
+          "file": "assets/4k/plaid-bow-dress-main-4k.jpg",
+          "width": 2730,
+          "height": 4096
+        },
+        {
+          "kind": "detail-1",
+          "file": "assets/4k/plaid-bow-dress-detail-1-4k.jpg",
+          "width": 4096,
+          "height": 2914
+        },
+        {
+          "kind": "detail-2",
+          "file": "assets/4k/plaid-bow-dress-detail-2-4k.jpg",
+          "width": 4096,
+          "height": 3401
+        },
+        {
+          "kind": "detail-3",
+          "file": "assets/4k/plaid-bow-dress-detail-3-4k.jpg",
+          "width": 4096,
+          "height": 3154
+        }
+      ],
+      "lifestyle_status": "not_generated"
+    },
+    {
+      "product_id": "red-dress",
+      "original": "red-dress.jpg",
+      "assets": [
+        {
+          "kind": "main",
+          "file": "assets/4k/red-dress-main-4k.jpg",
+          "width": 2730,
+          "height": 4096
+        },
+        {
+          "kind": "detail-1",
+          "file": "assets/4k/red-dress-detail-1-4k.jpg",
+          "width": 4096,
+          "height": 2914
+        },
+        {
+          "kind": "detail-2",
+          "file": "assets/4k/red-dress-detail-2-4k.jpg",
+          "width": 4096,
+          "height": 3401
+        },
+        {
+          "kind": "detail-3",
+          "file": "assets/4k/red-dress-detail-3-4k.jpg",
+          "width": 4096,
+          "height": 3154
+        }
+      ],
+      "lifestyle_status": "not_generated"
+    },
+    {
+      "product_id": "red-suspenders-romper",
+      "original": "red-suspenders-romper.jpg",
+      "assets": [
+        {
+          "kind": "main",
+          "file": "assets/4k/red-suspenders-romper-main-4k.jpg",
+          "width": 3278,
+          "height": 4096
+        },
+        {
+          "kind": "detail-1",
+          "file": "assets/4k/red-suspenders-romper-detail-1-4k.jpg",
+          "width": 4096,
+          "height": 2419
+        },
+        {
+          "kind": "detail-2",
+          "file": "assets/4k/red-suspenders-romper-detail-2-4k.jpg",
+          "width": 4096,
+          "height": 2828
+        },
+        {
+          "kind": "detail-3",
+          "file": "assets/4k/red-suspenders-romper-detail-3-4k.jpg",
+          "width": 4096,
+          "height": 2624
+        }
+      ],
+      "lifestyle_status": "not_generated"
+    },
+    {
+      "product_id": "red-suspenders-set",
+      "original": "red-suspenders-set.jpg",
+      "assets": [
+        {
+          "kind": "main",
+          "file": "assets/4k/red-suspenders-set-main-4k.jpg",
+          "width": 3278,
+          "height": 4096
+        },
+        {
+          "kind": "detail-1",
+          "file": "assets/4k/red-suspenders-set-detail-1-4k.jpg",
+          "width": 4096,
+          "height": 2419
+        },
+        {
+          "kind": "detail-2",
+          "file": "assets/4k/red-suspenders-set-detail-2-4k.jpg",
+          "width": 4096,
+          "height": 2828
+        },
+        {
+          "kind": "detail-3",
+          "file": "assets/4k/red-suspenders-set-detail-3-4k.jpg",
+          "width": 4096,
+          "height": 2624
+        }
+      ],
+      "lifestyle_status": "not_generated"
+    }
+  ]
+}
