@@ -145,7 +145,7 @@
 <div class="intro-screen" id="introScreen" aria-label="Hugsberry logo introduction" aria-live="polite" hidden>
   <div class="intro-inner">
     <img class="intro-logo-fallback" src="assets/hugsberry-logo.svg" alt="Hugsberry">
-    <video class="intro-video" id="introVideo" src="assets/hugsberry-intro.mp4" autoplay muted loop playsinline preload="auto" aria-label="Animated Hugsberry logo"></video>
+    <video class="intro-video" id="introVideo" src="assets/hugsberry-intro.mp4" muted loop playsinline preload="none" aria-label="Animated Hugsberry logo"></video>
     <span class="sr-only">Little outfits. Endless love.</span>
   </div>
   <button class="intro-skip" id="introSkip" type="button">Skip intro <span aria-hidden="true">↗</span></button>
@@ -234,6 +234,8 @@ applyProductFilters();
  const screen=$('#introScreen'),skip=$('#introSkip'),video=$('#introVideo');
  if(!screen||!skip)return;
  if(video){video.addEventListener('error',()=>screen.classList.add('video-failed'));video.addEventListener('loadeddata',()=>screen.classList.remove('video-failed'));}
+ // Never let a slow video delay the storefront; reveal the static logo fallback quickly.
+ if(video){video.addEventListener('waiting',()=>screen.classList.add('video-failed'));video.addEventListener('stalled',()=>screen.classList.add('video-failed'));}
  const params=new URLSearchParams(location.search);
  const isHome=!params.has('product')&&!params.has('page');
  let seen=false;try{seen=sessionStorage.getItem('hugsberryIntroSeen')==='1'}catch(e){}
@@ -244,7 +246,7 @@ applyProductFilters();
  let closed=false;
  const finish=()=>{if(closed)return;closed=true;try{sessionStorage.setItem('hugsberryIntroSeen','1')}catch(e){}screen.classList.add('is-leaving');skip.disabled=true;if(video){video.pause();}window.setTimeout(()=>{screen.hidden=true},1000)};
  skip.addEventListener('click',finish);
- const timer=window.setTimeout(finish,6200);
+ const timer=window.setTimeout(finish,3500);
  screen.addEventListener('click',e=>{if(e.target===screen)finish()});
  document.addEventListener('keydown',function introKey(e){if(e.key==='Escape'&&!closed){window.clearTimeout(timer);finish();document.removeEventListener('keydown',introKey)}});
 })();
